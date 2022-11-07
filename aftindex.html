@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Профиль</title>
+  <link href="https://fonts.googleapis.com/css?family=PT+Serif:400,700|Roboto:400,500&amp;subset=cyrillic"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/fonts.css">
+  <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+  <link rel="stylesheet" href="css/slick.css">
+  <link rel="stylesheet" href="css/jquery.formstyler.css">
+  <link rel="stylesheet" href="css/style.css" id="theme">
+  <link rel="stylesheet" href="css/media.css">
+  <link rel="stylesheet" title="theme" href="#">
+</head>
+
+<body>
+  
+  <header class="header">
+    <div class="header__top">
+      <div class="container">
+        <div class="header__contacts">
+          <a class="header__phone" href="tel:380963092145">+8 777 777 77 77</a>
+          <a class="header__email" href="#">iitufariza@gmail.com</a>
+          <a class="header__btn" href="#">Ваш профиль</a>
+        </div>
+      </div>
+    </div>
+    <div class="header__content">
+      <div class="container">
+        <div class="header__content-inner">
+          <div class="header__logo">
+            <a href="#">
+              <img src="img/pngegg.png" alt="" style="position:relative; width:50px;">
+            </a>
+          </div>
+          <nav class="menu">
+            <div class="header__btn-menu">
+              <span class="icon-bars"></span>
+            </div>
+            <ul>
+              <li><a href="#">Главная</a></li>
+              <li><a href="#">О нас</a></li>
+              <li><a href="#">Меню</a></li>
+              <li><a href="#">Контакты</a></li>
+              <li><a href="#cont2" id="cont">Контакты</a></li>
+              <li><a href="file:///C:/Users/%D0%90%D0%B4%D0%BC%D0%B8%D0%BD/Desktop/WEB%20DEV/lab4%20pj3/pj2/index.html">Развлекалка</a></li>
+              <<li><a href="file:///C:/Users/%D0%90%D0%B4%D0%BC%D0%B8%D0%BD/Downloads/lab5/lab5/todolist/index.html">Список заказов</a></li>
+
+             <li> <div class="theme">
+                <svg class="changeTheme" data-theme="light" width="40" height="40" viewBox="0 0 40 40" fill="#fffff"  xmlns="http://www.w3.org/2000/svg" > <path d="M20 30C22.6522 30 25.1957 28.9464 27.0711 27.0711C28.9464 25.1957 30 22.6522 30 20C30 17.3478 28.9464 14.8043 27.0711 12.9289C25.1957 11.0536 22.6522 10 20 10C17.3478 10 14.8043 11.0536 12.9289 12.9289C11.0536 14.8043 10 17.3478 10 20C10 22.6522 11.0536 25.1957 12.9289 27.0711C14.8043 28.9464 17.3478 30 20 30V30ZM20 0C20.3315 0 20.6495 0.131696 20.8839 0.366117C21.1183 0.600537 21.25 0.918479 21.25 1.25V6.25C21.25 6.58152 21.1183 6.89946 20.8839 7.13388C20.6495 7.3683 20.3315 7.5 20 7.5C19.6685 7.5 19.3505 7.3683 19.1161 7.13388C18.8817 6.89946 18.75 6.58152 18.75 6.25V1.25C18.75 0.918479 18.8817 0.600537 19.1161 0.366117C19.3505 0.131696 19.6685 0 20 0V0ZM20 32.5C20.3315 32.5 20.6495 32.6317 20.8839 32.8661C21.1183 33.1005 21.25 33.4185 21.25 33.75V38.75C21.25 39.0815 21.1183 39.3995 20.8839 39.6339C20.6495 39.8683 20.3315 40 20 40C19.6685 40 19.3505 39.8683 19.1161 39.6339C18.8817 39.3995 18.75 39.0815 18.75 38.75V33.75C18.75 33.4185 18.8817 33.1005 19.1161 32.8661C19.3505 32.6317 19.6685 32.5 20 32.5V32.5ZM40 20C40 20.3315 39.8683 20.6495 39.6339 20.8839C39.3995 21.1183 39.0815 21.25 38.75 21.25H33.75C33.4185 21.25 33.1005 21.1183 32.8661 20.8839C32.6317 20.6495 32.5 20.3315 32.5 20C32.5 19.6685 32.6317 19.3505 32.8661 19.1161C33.1005 18.8817 33.4185 18.75 33.75 18.75H38.75C39.0815 18.75 39.3995 18.8817 39.6339 19.1161C39.8683 19.3505 40 19.6685 40 20ZM7.5 20C7.5 20.3315 7.3683 20.6495 7.13388 20.8839C6.89946 21.1183 6.58152 21.25 6.25 21.25H1.25C0.918479 21.25 0.600537 21.1183 0.366117 20.8839C0.131696 20.6495 0 20.3315 0 20C0 19.6685 0.131696 19.3505 0.366117 19.1161C0.600537 18.8817 0.918479 18.75 1.25 18.75H6.25C6.58152 18.75 6.89946 18.8817 7.13388 19.1161C7.3683 19.3505 7.5 19.6685 7.5 20ZM34.1425 5.8575C34.3768 6.09191 34.5085 6.40979 34.5085 6.74125C34.5085 7.07271 34.3768 7.39059 34.1425 7.625L30.6075 11.1625C30.4913 11.2786 30.3533 11.3706 30.2016 11.4333C30.0498 11.4961 29.8871 11.5283 29.7229 11.5282C29.3912 11.528 29.0731 11.396 28.8387 11.1612C28.7227 11.045 28.6307 10.9071 28.5679 10.7553C28.5052 10.6035 28.4729 10.4409 28.4731 10.2766C28.4733 9.94491 28.6053 9.62689 28.84 9.3925L32.375 5.8575C32.6094 5.62316 32.9273 5.49152 33.2588 5.49152C33.5902 5.49152 33.9081 5.62316 34.1425 5.8575V5.8575ZM11.16 28.84C11.3943 29.0744 11.526 29.3923 11.526 29.7237C11.526 30.0552 11.3943 30.3731 11.16 30.6075L7.625 34.1425C7.38925 34.3702 7.07349 34.4962 6.74575 34.4933C6.418 34.4905 6.10449 34.359 5.87273 34.1273C5.64097 33.8955 5.50951 33.582 5.50666 33.2543C5.50381 32.9265 5.6298 32.6108 5.8575 32.375L9.3925 28.84C9.62691 28.6057 9.94479 28.474 10.2762 28.474C10.6077 28.474 10.9256 28.6057 11.16 28.84V28.84ZM34.1425 34.1425C33.9081 34.3768 33.5902 34.5085 33.2588 34.5085C32.9273 34.5085 32.6094 34.3768 32.375 34.1425L28.84 30.6075C28.6123 30.3717 28.4863 30.056 28.4892 29.7282C28.492 29.4005 28.6235 29.087 28.8552 28.8552C29.087 28.6235 29.4005 28.492 29.7282 28.4892C30.056 28.4863 30.3717 28.6123 30.6075 28.84L34.1425 32.375C34.3768 32.6094 34.5085 32.9273 34.5085 33.2588C34.5085 33.5902 34.3768 33.9081 34.1425 34.1425ZM11.16 11.1625C10.9256 11.3968 10.6077 11.5285 10.2762 11.5285C9.94479 11.5285 9.62691 11.3968 9.3925 11.1625L5.8575 7.625C5.73811 7.50969 5.64288 7.37176 5.57737 7.21926C5.51186 7.06675 5.47738 6.90273 5.47594 6.73675C5.47449 6.57078 5.50612 6.40618 5.56897 6.25256C5.63182 6.09894 5.72464 5.95937 5.84201 5.84201C5.95937 5.72464 6.09894 5.63182 6.25256 5.56897C6.40618 5.50612 6.57078 5.47449 6.73675 5.47594C6.90273 5.47738 7.06675 5.51186 7.21926 5.57737C7.37176 5.64288 7.50969 5.73811 7.625 5.8575L11.16 9.3925C11.2764 9.50861 11.3688 9.64655 11.4318 9.79842C11.4948 9.95028 11.5272 10.1131 11.5272 10.2775C11.5272 10.4419 11.4948 10.6047 11.4318 10.7566C11.3688 10.9084 11.2764 11.0464 11.16 11.1625V11.1625Z" fill="#ffffff"></path></svg>
+                <svg class="changeTheme" data-theme="dark" width="38" height="40" viewBox="0 0 38 40" fill="#222222" xmlns="http://www.w3.org/2000/svg"> <path d="M15 0.695136C15.244 0.991667 15.3935 1.35457 15.4292 1.73694C15.4648 2.11932 15.385 2.5036 15.2 2.84014C13.7546 5.49382 12.9998 8.46837 13.005 11.4901C13.005 21.5426 21.2 29.6826 31.3 29.6826C32.6175 29.6826 33.9 29.5451 35.1325 29.2826C35.5103 29.2008 35.9039 29.2321 36.264 29.3726C36.6241 29.5131 36.9349 29.7566 37.1575 30.0726C37.3925 30.4013 37.5123 30.7983 37.4983 31.2021C37.4842 31.6058 37.3372 31.9936 37.08 32.3051C35.1192 34.7137 32.6456 36.6544 29.8396 37.9856C27.0335 39.3168 23.9658 40.0051 20.86 40.0001C9.335 40.0001 0 30.7151 0 19.2751C0 10.6651 5.285 3.28014 12.81 0.150136C13.1848 -0.00828447 13.601 -0.0407995 13.9959 0.057475C14.3908 0.15575 14.7431 0.379507 15 0.695136V0.695136Z" fill="#222222"></path></svg>
+              </li>
+              </div>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+  <section class="slider">
+    <div class="container">
+      <div class="slider__inner">
+        <div class="slider__item">
+          <div class="slider__item-content">
+            <div class="slider__title">
+              CAKE MART
+            </div>
+            <div class="slider__text">
+              Исполним ваши желания и доставим до двери!
+            </div>
+            <a data-fancybox data-src="#modal" href="javascript:;" class="slider__btn default-btn">
+              Оставить заявку
+            </a>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+
+  
+  <section class="services">
+    <div class="container">
+      <div class="services__top">
+        <div class="services__title-box">
+          <div class="services__title">
+            Меню
+          </div>
+          <div class="services__text">
+            Мы выполним ваше желание заказать замечательные и вкуснейшие десерты для вашего мероприятия.
+            Наше современное меню на ваше рассмотрение
+          </div>
+        </div>
+        <div class="services__btn">
+          <a href="#">
+            Показать все меню
+          </a>
+        </div>
+      </div>
+      <div class="services__items">
+        <div class="services__item">
+          <img src="img/29414507_428795967541636_6830347453594599424_n.jpg" alt="" style="position:relative; width:150px;   ">
+          <div class="services__item-title">
+            Вупи-Пай
+          </div>
+          <div class="services__item-text">
+            Это американская выпечка, которую можно рассматривать как печенье, пирог, бутерброд или торт. Он состоит из двух круглых кусочков шоколадного торта
+          </div>
+          <div class="services__item-btn">
+            <a class="services__item-link" href="#">Подробнее</a>
+            <a data-fancybox data-src="#modal" href="javascript:;" class="default-btn">
+              Заказать
+            </a>
+          </div>
+        </div>
+        <div class="services__item">
+          <img src="img/1627854904_20-kartinkin-com-p-merengovii-rulet-pavlova-yeda-krasivo-foto-30.jpg" alt="" style="position:relative; width:220px;   ">
+          <div class="services__item-title">
+            Меренговый рулет
+          </div>
+          <div class="services__item-text">
+            Французское пирожное из запечённых взбитых яичных белков и сахара. Словом безе также называют 
+            кондитерский крем, приготавливаемый из тех же продуктов, что и пирожное.
+          </div>
+          <div class="services__item-btn">
+            <a class="services__item-link" href="#">Подробнее</a>
+            <a data-fancybox data-src="#modal" href="javascript:;" class="default-btn">
+              Заказать
+            </a>
+          </div>
+        </div>
+        <div class="services__item">
+          <img src="img/1644920595_17-klublady-ru-p-krasivaya-podacha-desertov-v-restoranakh-f-17.jpg" alt="" style="position:relative; width:220px;   ">
+          <div class="services__item-title">
+            Макарон
+          </div>
+          <div class="services__item-text">
+            Французское кондитерское изделие из яичных белков, сахара и молотого миндаля. 
+            Обычно делается в форме печенья; между двумя слоями кладут крем или варенье.
+          </div>
+          <div class="services__item-btn">
+            <a class="services__item-link" href="#">Подробнее</a>
+            <a data-fancybox data-src="#modal" href="javascript:;" class="default-btn">
+              Заказать
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section class="about">
+    <div class="container"> 
+      <div class="about__inner">
+        <div class="about__title">
+          О нас - Cake Mart — это то место, куда Вы будете возвращаться снова и снова…
+        </div>
+        <div class="about__text">
+          Приготовление для нас это настоящий творческий процесс, в который 
+          талантливые пекари и кондитеры ежедневно вкладывают свое мастерство и любовь. <br>
+          Мы готовим различные торты и пирожные только из натуральных продуктов. Никаких консервантов, улучшителей вкуса, ароматических добавок и другой химии. Мы за натуральность, высокое качество и ручное приготовление,
+           поэтому наши торты и выпечка пользуются огромной популярностью. Мы заботимся о Вашем здоровье!
+        </div>
+        <a href="#" class="about__btn default-btn">
+          Узнать больше
+        </a>
+      </div>
+    </div>
+  </section>
+  
+  <section class="form">
+    <div class="container">
+      <div class="form__inner">
+        <div class="form__content">
+          <div class="form__title-box">
+            <div class="form__title">
+              Если у вас остались вопросы...
+            </div>
+            <div class="form__text">
+              Заполните форму ниже и мы вам позвоним,
+либо позвоните нам:
+            </div>
+          </div>
+          <div class="form__box">
+            <form>
+              <div class="form__box-inner">
+                <div class="form__box-left">
+                  <label>
+                    E-mail
+                    <input type="text">
+                  </label>
+                  <label>
+                    Контактный телефон
+                    <input type="text">
+                  </label>
+                  <label>
+                    ФИО
+                    <input type="text">
+                  </label>
+                  <label>
+                    Тема вопроса
+                    <select>
+                      <option>-------------</option>
+                      <option>-------------</option>
+                      <option>-------------</option>
+                      <option>-------------</option>
+                    </select>
+                  </label>
+                </div>
+                <div class="form__box-right">
+                  <label>
+                    Сообщение
+                    <textarea></textarea>
+                  </label>
+                  <button class="default-btn" type="submit">Отправить</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section class="advantages">
+    <div class="container">
+      <div class="advantages__inner">
+        <div class="advantages-item">
+          <div class="advantages__title">
+            При заказе от 10 000 тенге
+БЕСПЛАТНАЯ ДОСТАВКА
+          </div>
+          <div class="advantages__text">
+            Мы хотим исполнить все возможные комфортности для наших клиентов
+          </div>
+        </div>
+        <div class="advantages-item">
+          <div class="advantages__title">
+            Премиальное качество и вкус <br>
+            БОЛЕЕ 20 ВИДОВ ТОРТОВ
+          </div>
+          <div class="advantages__text">
+            Также мы ежегодно меняем свое меню, чтобы вы пробовали чтото новое с нами
+          </div>
+        </div>
+        <div class="advantages-item">
+          <div class="advantages__title">
+            Работаем более 4 лет <br>
+БОЛЕЕ 20 000 ЗАКАЗОВ
+          </div>
+          <div class="advantages__text">
+            Можете посмотреть наши отзывы
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="news">
+    <div class="container">
+      <div class="news__top">
+        <div class="news__title-box">
+          <div class="news__title">
+            Наши новые фирменные десерты
+          </div>
+          <div class="news__text">
+            Наши кондитеры усердно работают над каждым проектом,тут указаны новые десерты которые мы опубликуем скоро
+          </div>
+        </div>
+        <div class="news__btn">
+          <a href="#">
+            Открыть все
+          </a>
+        </div>
+      </div>
+      <div class="news__inner">
+        <div class="news__slider">
+          <div class="news__slider-inner">
+            <div class="news__slider-item">
+              <div class="news__slider-title">
+                Французский клафути с вишней
+              </div>
+              <div class="news__slider-text">
+                «Если спросить у любого француза, какой, по его
+                 мнению, лучший десерт с вишней, он, не задумываясь, ответит,
+                  что это клафути. Этот десерт не требует особых манипуляций, достаточно просто смешать самые простые продукты -муку, сахар и яйца – и через час у вас на столе настоящий летний десерт. »
+              </div>
+              <div class="news__slider-author">
+
+              </div>
+            </div>
+            <div class="news__slider-item">
+              <div class="news__slider-title">
+                Французский клафути с вишней
+              </div>
+              <div class="news__slider-text">
+                «Если спросить у любого француза, какой, по его
+                 мнению, лучший десерт с вишней, он, не задумываясь, ответит,
+                  что это клафути. Этот десерт не требует особых манипуляций, достаточно просто
+                   смешать самые простые продукты -муку, сахар и яйца – и через час у вас на столе настоящий летний десерт. »
+              </div>
+              <div class="news__slider-author">
+                
+              </div>
+            </div>
+            <div class="news__slider-item">
+              <div class="news__slider-title">
+                Французский клафути с вишней
+              </div>
+              <div class="news__slider-text">
+                «Если спросить у любого француза, какой, по его
+                 мнению, лучший десерт с вишней, он, не задумываясь, ответит,
+                  что это клафути. Этот десерт не требует особых манипуляций, достаточно 
+                  просто смешать самые простые продукты -муку, сахар и яйца – и через час у вас на столе настоящий летний десерт. »
+              </div>
+              <div class="news__slider-author">
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="news__blog">
+          <div class="news__images">
+            <img src="img/1088171_3fach-sort-_-5304_ritter-eppelein.jpg" alt=""  style="position:relative; width:200px;" >
+            <div class="news__date">03.04</div>
+          </div>
+          <div class="news__blog-title">
+            Нюрнбергские пряники
+          </div>
+          <div class="news__blog-text">
+            Радиционные пряники из франконо-баварского
+             города Нюрнберга, известные ещё со времён Средневековья. Особенно популярны в рождественский период, хотя изготавливаются и продаются круглый год.
+          </div>
+        </a>
+        <a href="#" class="news__blog">
+          <div class="news__images">
+            <img src="img/503900ea8d92a5480525338059b64b03.jpg" alt="" style="position:relative; width:150px;">
+            <div class="news__date">03.04</div>
+          </div>
+          <div class="news__blog-title">
+            Австрийский кранц с маком
+          </div>
+          <div class="news__blog-text">
+            Австрийский кранц с маком Австрия – родной дом для слоеных и рассыпчатых булочек, так называемой viennoiserie (венской выпечки). На витринах кофеен можно найти что-то особенное на любой случай жизни: слойки на завтрак, пирожные к чаю и специальные десерты к празднику.
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer__content">
+      <div class="container">
+        <div class="footer__inner">
+          <div class="footer__info">
+            <div class="footer__title">
+             
+            </div>
+            <div class="footer__text">
+              
+            </div>
+            <a data-fancybox data-src="#modal" href="javascript:;" class="header__btn" href="#">
+              Заказ
+            </a>
+            <ul class="footer__list"> 
+              <li><a class="footer__phone" href="tel:380963092145">+8 777 777 77 77</a></li>
+              <li><a href="#">iitufariza@gmail.com</a></li>
+              <li><a class="footer__adress" href="#">Алматы,Абая проспект</a></li>
+            </ul>
+          </div>
+          <div class="footer__map">
+            <iframe height="250px" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2540.124391996489!2d30.364922015731644!3d50.457408279476354!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cc919501b4ef%3A0x71a476f68f4c8246!2z0YPQuy4g0KTQtdC-0LTQvtGA0Ysg0J_Rg9GI0LjQvdC-0LksIDEzLCDQmtC40LXQsiwgMDIwMDA!5e0!3m2!1sru!2sua!4v1555013165886!5m2!1sru!2sua" frameborder="0" style="border:0" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer__copy">
+      <div class="container">
+        <div class="copy__text">
+          
+        </div>
+      </div>
+    </div>
+  </footer> 
+
+  <div id="modal">
+    <form>
+      <input type="text" placeholder="Ваше имя">
+      <input type="text" placeholder="Ваш телефон">
+      <input type="submit" value="Отправить">
+    </form>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="js/jquery.fancybox.min.js"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="js/jquery.formstyler.min.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/SCRIPT.JS"></script>
+
+</body>
+
+</html>
